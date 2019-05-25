@@ -1,15 +1,73 @@
 body{
-    background-color: skyblue;
+    background-color: beige;
 }
 #topMenu{
-    font-size: 15px;
+    font-size: 25px;
+    
 }
-.content{
-    color: aqua;
+#topMenu li{
+    display: inline;
+    text-align: center;
+    word-spacing: 10px;
+    background-origin: padding-box;
+    border: 5px solid yellowgreen;
+}
+image{
+    height: 20%;
+    width: 20%;
+    border-image: 200px;
+}
+.pizzaName{
+    font-size: 30px;
+  }
+.description{
+    font-size: 20px;
+  }
+section{
+    font-family: 'Oswald', sans-serif;
 }
 #menu{
-    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: aqua;
+    outline-style: dashed;
+    outline-color: green;
+    margin: 5px;
+
 }
-li{
-    color: blueviolet;
+#subscribe{
+    font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    outline-style: dotted;
+    outline-color: brown;
+    margin: 10px;
+    width: 45%;
+    padding: 15px;
 }
+#visit{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: seashell;
+    border: 5px solid black;
+    width: 50%;
+}
+#Today{
+    height: 100px;
+    outline-style: double;
+    margin: 10px
+
+  }
+  a:hover{
+    background-color: yellow;
+  }
+  a:visited{
+      color: sandybrown;
+  }
+  img#selector {
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
+    width:100%;
+    height:100%;
+}
+  
